@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Sra. Faxina</title>
+</head>
+
+<body>
+    <!-- INICIO DO NAVBAR -->
+  
+    <nav class="nav-bar" id="navbar">
+        <div class="logo">
+            <h1>Sra. <span id = "fax">Faxina e Refeições</span></h1>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#showcase" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#clients" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Pacotes</a></li>
+                <li class="nav-item"><a href="#servicos" class="nav-link">Trabalhe Conosco</a></li>
+
+            </ul>
+        </div>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="funcmenu">
+        <ul class="mobile-ul">
+            <li class="nav-item"><a href="#showcase" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#clients" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">Pacotes</a></li>
+            <li class="nav-item"><a href="#servicos" class="nav-link">Trabalhe Conosco</a></li>
+        </ul>
+    </div>
+
+    <!-- FINAL DO NAVBAR -->
+
+    <header id="showcase">
+        <div id="showcase-container">
+            <h2>Serviços de Limpeza a Pronto Atendimento</h2>
+            <p>Atendemos Casas, Domicilios e Pós-obra</p>
+            <a href="#product" class="btn1">Saiba mais</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <main>
+        <section id="clients">
+            <div class="headline">O que fazemos</div>
+            <div id="clients-container">
+                <img src="./img/casa.png" class="client" alt="imagem de uma casa">
+                <img src="./img/predio2.png" class="client" alt="imagem de um predio">
+                <img src="./img/pedreiro.png" class="client" alt="imagem significando pós obra">
+            </div>
+        </section>
+
+        <section id="features">
+           
+            <div id="features-container">
+                <div class="feature">
+
+                    <span class="feature-title">Casas.</span><br>
+                    <p>Precisando de uma faxina na sua casa? Nossas diaristas estão a prontidão para fazer a limpeza 
+                        e deixar seu ambiente além de organizado, limpo e perfumado!</p>
+                </div>
+                <div class="feature">
+
+                    <span class="feature-title">Apartamentos.</span><br>
+                    <p>Deixamos o seu apartamento limpo e cheiroso, livre de sujeira e impurezas! Entre em contato e solicite um orçamento.</p>
+                </div>
+                <div class="feature">
+
+                    <span class="feature-title">Pós Obra.</span><br>
+                    <p>A faxina do pós obra, mais rápida e eficaz. Facilite sua Vida! Entre em contato e agende sua limpeza.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="product">
+        <div class="headline">Quem Somos?</div>
+        <div id="product-container">
+            <img src="./img/iphone-x.png" alt="" class="iphone-x">
+            <div id="items">
+                <div class="item">
+                    <i class="fas fa-map-marked fa-2x color-primary" id = "ic-map"></i>
+                    <p>A <spam class =  "logo2">Sra.Faxina</spam> é uma empresa que atua principalmente na região metropolitana de São Paulo.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-users fa-2x color-primary"></i>
+                    <p>Nós utilizamos os melhores produtos e temos os melhores profissionais para prestar o serviço de limpeza ao cliente.</p>
+                </div>
+                <div class="item">
+                    <i class="fa fa-handshake-o fa-2x color-primary" ></i>
+                    <p>A nossa meta é priorizar o atendimento ao cliente, visando contribuir com uma boa limpeza de sua residência.</p>
+                </div>
+                <div class="item">
+                    <i class="fa fa-home fa-2x color-primary"></i>
+                    <p>Contratar uma faxina para sua casa ou empresa ficou ainda mais simples com a <spam class = "logo2">Sra.Faxina!</spam></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- IMAGEM 1 PACOTE BASICO -->
+    <section id="gallery">
+        <div class="headline">Serviços</div>
+        <div id="gallery-container">
+            <div class="card">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/pacote-basic.png" alt="" class="gallery-image" id="gold">
+                    </div>
+                    <div class="contentBx">
+                        <div>
+                            <img src="./img/preco-basic.png" id="preco"></img>
+                            <a href="https://api.whatsapp.com/send?phone=5511948250899&text=Olá, tenho interesse no Pacote Basic."><button>Contate Nos</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGEM 1 PACOTE BASICO -->
+
+
+            <!-- IMAGEM 2 PACOTE BASICO -->
+            <div class="card">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/pacote-gold.png" alt="" class="gallery-image" id="gold">
+                    </div>
+                    <div class="contentBx">
+                        <div>
+                            <img src="./img/preco-gold.png" id="preco"></img>
+                            <a href="https://api.whatsapp.com/send?phone=5511948250899&text=Olá, tenho interesse no Pacote Gold."><button>Contate Nos</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- IMAGEM 2 PACOTE BASICO -->
+        <a href="https://api.whatsapp.com/send?phone=5511948250899&text=Olá, gostaria de mais informações sobre seus serviços.">
+        <img src="./img/whatsapp-verde.png" id="wppIcon"></img>
+    </a>
+    </section>
+
+
+    <section id="servicos">
+        <div id="gallery-container">
+        </div>
+        <div class="caixa-central">
+            <div class="caixa1">
+                <div class="caixa-texto1">
+                    <h1>Tem interesse em trabalhar conosco? </h1>
+                    <h2>Aqui é o seu lugar!</h2>
+                </div>
+                    <button onclick="goToAnotherPage()"><img src="img/logo-whatsapp.png" alt="" id="logo-zap2"> Clique aqui</button>
+            </div>
+            <!-- CAIXA DE CARROSSEL -->
+            <div class="caixa2">
+               <img src = "./img/img-carro1.jpeg" id="img-carro"></img>
+          </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="logos">
+            <a href="https://pt-br.facebook.com/">
+                <img src="./img/logo-face.png"></img>
+            </a>
+
+            <a href="https://www.instagram.com/sra.faxina2022/">
+                <img src="./img/logo-insta.png"></img>
+            </a>
+
+            <a href="https://mail.google.com/">
+                <img src="./img/logo-email.png"></img>
+            </a>
+    </div>
+    </footer>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Our JS file -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
